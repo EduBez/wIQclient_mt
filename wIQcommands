@@ -1,0 +1,8 @@
+81130831	54391	*100#	==	<sc version="2.01"><result><string>Hello\n</string></result></sc>
+81130831	54391	*104#	==	<sc version="2.01"><prompt><string>index.html: 1 Link12 Link23 Link3</string><dest>81130831</dest></prompt></sc>	
+81130832	54392	*102#	!=	<sc version="2.01"><result><string>World</string></result></sc>
+81130833	54393	*109#	>=	<sc version="2.01"><result><string>From</string></result></sc>
+81130834	54394	*109#	<=	<sc version="2.01"><result><string>wIQ</string></result></sc>
+81130835	54395	*110#	#	<sc version="2.01"><result><string>and</string></result></sc>
+81130836	54396	*109#	>	<sc version="2.01"><result><string>ORGA</string></result></sc>
+81130837	54397	*100#	regexp	<sc version="2.01"><result><string>Rio</string></result></sc>

@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "runner": "terminal",
+    "tasks": [
+        {
+            "label": "Build C++ Project",
+            "type": "shell",
+            "command": "cd build && cmake .. && cmake --build . -- -j 6",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+        }
+    ]
+}

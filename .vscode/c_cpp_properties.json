@@ -1,0 +1,44 @@
+{
+    "configurations": [
+        {
+            "name": "WSL",
+            "intelliSenseMode": "clang-x64",
+            "includePath": [
+                "C:/rootfs/usr/include/c++/8",
+                "C:/rootfs/usr/include/x86_64-linux-gnu/c++/8",
+                "C:/rootfs/usr/include/c++/8/backward",
+                "C:/rootfs/usr/lib/gcc/x86_64-linux-gnu/8/include",
+                "C:/rootfs/usr/local/include",
+                "C:/rootfs/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed",
+                "C:/rootfs/usr/include/x86_64-linux-gnu",
+                "C:/rootfs/usr/include",
+                "C:/rootfs/home/edubez/vcpkg/installed/x64-linux/include",
+                "${workspaceRoot}",
+                "${workspaceRoot}/sockets",
+                "${workspaceRoot}/utf-8"
+        ],
+            "defines": [
+                "__linux__",
+                "__x86_64__"
+            ],
+            "browse": {
+                "path": [
+                    "C:/rootfs/usr/include/c++/8",
+                    "C:/rootfs/usr/include/x86_64-linux-gnu/c++/8",
+                    "C:/rootfs/usr/local/include",
+                    "C:/rootfs/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed",
+                    "C:/rootfs/usr/include/x86_64-linux-gnu",
+                    "C:/rootfs/usr/include",
+                    "C:/rootfs/home/edubez/vcpkg/installed/x64-linux/include",
+                    "C:/rootfs/home/edubez/vcpkg/installed/x64-linux/include/boost",
+                    "${workspaceRoot}"
+                    ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${workspaceRoot}/.vscode/VcDB"
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
